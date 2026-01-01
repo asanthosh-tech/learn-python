@@ -1,6 +1,10 @@
+# Python Basics: Variables and Data Types
 age=18
 percentage=84.6
 is_student= True
+print(type(age))
+print(type(percentage))
+print(type(is_student))
 
 #string
 name="santhosh"
@@ -9,18 +13,18 @@ print(name[::-1]) #reversing the name
 
 #list
 marks=[90, 70,88,79,98]
-marks. append(8) 
-marks . remove(70) #removes element 70
-marks. pop(0) #delete element at index one
+marks.append(8) 
+marks.remove(70) #removes element 70
+marks.pop(1) #delete element at index one
 print(marks) 
 
 #tuple
 subjects=('maths', 'social, 'english') 
-  #subjects[0]="science " # it gives error
+#subjects[0]="science " # it gives error
 
 #set
 s=[1,2,3,4,2,4,6,3,1]
-unique_nums=set(s) '''converts the list s into set(eliminate duplicates) '''
+unique_nums=set(s) # converts list to set (removes duplicates)
 print(unique_nums) 
 
 #dictionaries

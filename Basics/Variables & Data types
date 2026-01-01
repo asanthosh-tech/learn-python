@@ -1,0 +1,17 @@
+age=18
+percentage=84.6
+is_student= True
+
+#string
+name="santhosh"
+print(name[0]) #accessing 
+print(name[::-1]) #reversing the name
+
+#list
+marks=[90, 70,88,79,98]
+marks. append(69) 
+marks . remove(70) #removes element 70
+marks. pop(0) #delete element at index one
+print(marks) 
+
+#

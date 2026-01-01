@@ -12,14 +12,14 @@ print(name[0]) #accessing
 print(name[::-1]) #reversing the name
 
 #list
-marks=[90, 70,88,79,98]
+marks=[90,70,88,79,98]
 marks.append(8) 
 marks.remove(70) #removes element 70
 marks.pop(1) #delete element at index one
 print(marks) 
 
 #tuple
-subjects=('maths', 'social, 'english') 
+subjects=('maths','social,'english') 
 #subjects[0]="science " # it gives error
 
 #set
@@ -28,7 +28,8 @@ unique_nums=set(s) # converts list to set (removes duplicates)
 print(unique_nums) 
 
 #dictionaries
-details={'name':'santhosh', 'age':18}
+details={'name':'santhosh',
+         'age':18}
 details['branch']='cse' #new key
 details['age']=20 #updated
-print (details) 
+print(details) 

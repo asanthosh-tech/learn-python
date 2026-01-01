@@ -9,9 +9,22 @@ print(name[::-1]) #reversing the name
 
 #list
 marks=[90, 70,88,79,98]
-marks. append(69) 
+marks. append(8) 
 marks . remove(70) #removes element 70
 marks. pop(0) #delete element at index one
 print(marks) 
 
-#
+#tuple
+subjects=('maths', 'social, 'english') 
+  #subjects[0]="science " # it gives error
+
+#set
+s=[1,2,3,4,2,4,6,3,1]
+unique_nums=set(s) '''converts the list s into set(eliminate duplicates) '''
+print(unique_nums) 
+
+#dictionaries
+details={'name':'santhosh', 'age':18}
+details['branch']='cse' #new key
+details['age']=20 #updated
+print (details) 
